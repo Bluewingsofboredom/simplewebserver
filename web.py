@@ -1,6 +1,6 @@
 from http.server import HTTPServer,BaseHTTPRequestHandler
 
-content=
+content='''
 <!doctype html>
 <html>
 <head>
@@ -30,7 +30,7 @@ content=
         <td>Windows 11 Home Single Language</td>
     </tr>
 </body>
-</html>
+</html>'''
 
 
 class MyServer(BaseHTTPRequestHandler):
